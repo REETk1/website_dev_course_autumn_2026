@@ -1,22 +1,20 @@
     h1 {
-      color: #14532d;
+      color: #262626;
       font-size: 2em;
     }
 
     p {
-      color: #222222;
+      color: #262626;
       font-size: 1.2em;
     }
 
-    body {
-      background-color: lightgray;
-    }
-
     .content-box {
+      max-width: 600px;
+      margin: 40px auto;
       padding: 20px;
-      margin: 70px;
       background-color: #ffffff;
-      border: 1px solid #ff0000;
+      border: 4px solid #3df82d;
+      text-align: center;
     }
 
     table {
@@ -29,11 +27,11 @@
       border: 1px solid #000000;
       padding: 12px;
       text-align: left;
-      background-color: #e4e4e4;
+      background-color: #e6e6e6;
     }
 
     th {
-      background-color: #bbb9b9;
+      background-color: #3fff5c;
     }
 
     form {
@@ -71,7 +69,7 @@
     .transition-button {
       background-color: lightblue;
       padding: 10px 20px;
-      border: none;
+      border: 2px solid #000000;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -79,13 +77,16 @@
     .transition-button:hover {
       background-color: lightcoral;
     }
-
+    .unordered-list {
+      list-style-type: square;
+      padding-left: 40px;
+    }
     .animation-box {
-      width: 50px;
+      width: 150px;
       height: 50px;
       background-color: lightgreen;
       position: relative;
-      animation: move 2s infinite alternate;
+      animation: move 500ms infinite alternate;
     }
 
     @keyframes move {
@@ -97,17 +98,19 @@
         left: 1000px;
       }
     }
-
+.rounded-image {
+      border-radius: 15%;
+    }
     .pseudo-list li:nth-child(odd) {
-      background-color: rgb(146, 0, 0);
+      background-color: rgb(145, 144, 144);
       max-width: 400px;
     }
 
     .pseudo-list li:nth-child(even) {
-      background-color: rgb(101, 59, 255);
+      background-color: rgb(63, 237, 107);
       max-width: 400px;
     }
-
+    
     .filter-image {
       filter: grayscale(100%);
       transition: filter 0.3s ease;

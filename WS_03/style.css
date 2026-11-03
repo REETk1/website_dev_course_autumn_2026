@@ -112,8 +112,8 @@
     }
     
     .filter-image {
-      filter: grayscale(100%);
-      transition: filter 0.3s ease;
+      filter: grayscale(80%);
+      transition: filter 0.8s ease;
     }
 
     .filter-image:hover {

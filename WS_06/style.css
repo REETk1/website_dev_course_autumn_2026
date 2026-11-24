@@ -1,0 +1,13 @@
+.card{
+    background-color: #4e4d4d8f;
+    border-radius: 10%;
+}
+.row {
+    background-color: #fa6e6e8f;
+    
+}
+.card-img-top {
+    border-radius: 10%;
+    object-fit: cover;
+    border: 3px solid rgb(19, 54, 70); 
+}
